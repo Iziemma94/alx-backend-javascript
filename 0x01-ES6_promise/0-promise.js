@@ -1,3 +1,5 @@
-export default function getResponseFromAPI() {
-  return new Promise(() => {});
+xport default function getResponseFromAPI() {
+  return new Promise((resolve) => {
+    resolve('Resolved');
+  });
 }
